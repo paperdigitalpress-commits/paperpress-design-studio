@@ -1,0 +1,26 @@
+# Client work never goes to git (see CLAUDE.md). Keep jobs in work/.
+work/
+uploads/
+# Font files: commercial fonts must not be committed.
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.ttc
+# Design/client binaries outside tests/fixtures
+*.pdf
+*.ai
+*.psd
+*.cdr
+*.eps
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+!tests/fixtures/**
+# Test and Python output
+tests/out/
+__pycache__/
+*.pyc
